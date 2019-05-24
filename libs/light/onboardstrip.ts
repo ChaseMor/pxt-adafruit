@@ -7,6 +7,7 @@ namespace light {
     //% blockId="neopixel_onboard_strip" block="onboard strip"
     //% weight=111 blockGap=8
     //% subcategory="NeoPixel"
+    //% blockHidden=true
     export function onboardStrip(): NeoPixelStrip {
         if (_onboardStrip) return _onboardStrip;
 
